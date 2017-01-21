@@ -58,6 +58,9 @@ public struct ResizeCrop {
        - quality: Interpolation quality for a graphics context
      */
     public static func resize(image: CGImage, toPixelSize pixelSize: CGSize, gravity: Gravity, quality: CGInterpolationQuality = .high) -> CGImage {
+        assert(pixelSize.width != 0, "zero width")
+        assert(pixelSize.height != 0, "zero height")
+
         let sourceRatio = ratio(width: CGFloat(image.width), height: CGFloat(image.height))
         let drawLocation = calculateDrawLocation(sourceRatio: sourceRatio, rectToFill: pixelSize, gravity: gravity)
 
