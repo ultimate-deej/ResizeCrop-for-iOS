@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17E7C92E1E33C974003945D7 /* ResizeCrop.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E7C92C1E33C974003945D7 /* ResizeCrop.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17E7C9351E33C989003945D7 /* ResizeCrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E7C9341E33C989003945D7 /* ResizeCrop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17E7C9291E33C974003945D7 /* ResizeCrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResizeCrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17E7C92C1E33C974003945D7 /* ResizeCrop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResizeCrop.h; sourceTree = "<group>"; };
 		17E7C92D1E33C974003945D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17E7C9341E33C989003945D7 /* ResizeCrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizeCrop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +46,6 @@
 		17E7C92B1E33C974003945D7 /* ResizeCrop */ = {
 			isa = PBXGroup;
 			children = (
-				17E7C92C1E33C974003945D7 /* ResizeCrop.h */,
 				17E7C92D1E33C974003945D7 /* Info.plist */,
 				17E7C9341E33C989003945D7 /* ResizeCrop.swift */,
 			);
@@ -62,7 +59,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E7C92E1E33C974003945D7 /* ResizeCrop.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
